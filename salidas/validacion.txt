@@ -1,0 +1,16 @@
+VALIDACIÓN ENAHO 2024 (INEI) — limpiando-enaho
+Archivos: 966-Modulo34/sumaria-2024.dta (33,691 hogares) | 966-Modulo02/enaho01-2024-200.dta (117,721 personas)
+
+[OK   ] Llave de hogar única en sumaria: 0 duplicados
+[OK   ] Llave de persona única en módulo 02: 0 duplicados
+[OK   ] Residentes habituales = 108,664: 108,664 de 117,721 filas
+[OK   ] Unión m:1 sin duplicar filas: 108,664 -> 108,664
+[OK   ] Toda persona encuentra su hogar: 0 sin hogar
+[OK   ] facpob07 sin nulos y positivo: 0 nulos
+[OK   ] Pobreza nacional ponderada (facpob07) a ≤0.1 pp de 27.6 %: 27.53 % (sin ponderar sería 25.61 %)
+[OK   ] Pobreza con sumaria (factor07 × mieperho): 27.58 %
+[OK   ] 25 códigos departamentales (01–25): 25: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25']
+[OK   ] Pobreza urbana ≈ 24.8 %: 24.74 % (informativo)
+[OK   ] Pobreza rural ≈ 39.3 %: 39.44 % (informativo)
+[OK   ] Pobreza extrema ≈ 5.5 %: 5.50 % (informativo)
+Aprobadas 12/12. TODAS LAS ESENCIALES APROBADAS

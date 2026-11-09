@@ -1,0 +1,13 @@
+# microdatos y descargas (ver README para obtenerlos)
+datos/
+*.zip
+*.dta
+salidas/personas_2024.parquet
+
+# entorno
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.claude/settings.local.json
