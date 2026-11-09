@@ -93,3 +93,6 @@ skills `limpiando-enaho`, `graficando-enaho`, `mapeando-enaho`).
 Carpeta `evidencias_ia/`: conversaciones exportadas (Markdown/TXT) del desarrollo con Claude (claude.ai) y de
 las sesiones de Claude Code (`/export`), organizadas en `mcp/`, `skills/`, `integracion/` y `evaluacion/`, sin
 claves ni datos sensibles.
+
+### Nota sobre las evidencias de IA
+El código del servidor MCP, las Skills, las pruebas y el script de evaluación se desarrollaron con Claude (claude.ai). Esa conversación no se incluye en el repositorio por contener información personal. Se incluyen los registros completos de las ejecuciones en Claude Code: la ejecución integrada del agente (`evidencias_ia/integracion/ejecucion_agente.jsonl`), las 20 respuestas del experimento A/B (`evidencias_ia/evaluacion/`), las pruebas del MCP (`evidencias_ia/mcp/pytest.txt`) y la validación de ENAHO (`evidencias_ia/skills/validacion.txt`).
